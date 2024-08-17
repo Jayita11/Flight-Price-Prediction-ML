@@ -4,6 +4,9 @@
 
 This project aims to develop a predictive model for flight prices using various features such as search date, departure date, airline, number of stops, and more. The goal is to provide insights into the factors affecting flight prices and build a robust model to predict future prices accurately.
 
+![DALL·E 2024-08-16 22 31 58 - A second flat illustration for predicting flight prices with no text  The design should feature elements like a simplified airplane, a calendar, a gra](https://github.com/user-attachments/assets/25332ada-dddd-477d-b660-70b3b2563c12)
+
+
 ## Table of Contents
 
 1. [Libraries and Dataset](#libraries-and-dataset)
