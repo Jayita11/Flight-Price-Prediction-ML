@@ -14,7 +14,8 @@ This project aims to develop a predictive model for flight prices using various 
 4. [🏋️‍♂️ Model Training & Selection](#model-training-&-Selection)
 5. [📈 Model Evaluation](#model-evaluation)
 6. [🚀 Deployment](#deployment)
-7. [📝 Conclusion](#conclusion)
+7. [💻 Run Instructions](#run-instructions)
+8. [📝 Conclusion](#conclusion)
 
 ## 📚 Libraries and Dataset
 
@@ -108,6 +109,25 @@ An important aspect of the Random Forest model is its ability to provide insight
 Deploy the model using a Streamlit app (`app.py`). The app allows users to input flight price prediction data and get price predictions. To use the app, follow the link provided below:
 
 [🔗 Streamlit App](#)
+
+## 💻 Run Instructions
+
+If you wish to run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/Jayita11/Flight-Price-Prediction-ML]
+   cd Flight-Price-Prediction-ML
+
+   python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+Access the app:
+Open your browser and go to http://localhost:8501 to use the flight price prediction app.
 
 ## 📝 Conclusion
 
