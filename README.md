@@ -98,7 +98,7 @@ XGBoost Regressor: Another strong performer with an R² of 0.729838, this model 
 
 ### Feature Importance
 
-An important aspect of the Random Forest model is its ability to provide insights into the importance of different features in making predictions. A feature importance plot was generated to visualize which features had the most significant impact on predicting whether a customer will default. This plot is crucial for understanding the factors that contribute most to the prediction and can guide further analysis or business decisions.
+An important aspect of the Random Forest model is its ability to provide insights into the importance of different features in making predictions. A feature importance plot was generated to visualize which features had the most significant impact on predicting flight price.
 
 ![Screenshot 2024-08-16 at 10 17 18 PM](https://github.com/user-attachments/assets/2950e63b-bf09-41d4-a972-6fd5efacb5ab)
 
