@@ -110,24 +110,49 @@ Deploy the model using a Streamlit app (`app.py`). The app allows users to input
 
 [🔗 Streamlit App](#)
 
-## 💻 Run Instructions
+## 🖥️ Run Instructions
 
 If you wish to run this project locally, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/Jayita11/Flight-Price-Prediction-ML]
-   cd Flight-Price-Prediction-ML
 
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```bash
+    git clone https://github.com/Jayita11/Defaulter-Credit-Card-Prediction_ML
+    cd Defaulter-Credit-Card-Prediction_ML
+    ```
 
-   pip install -r requirements.txt
+2. **Set up a virtual environment**:
 
-   streamlit run app.py
+    ```bash
+    python -m venv env
+    ```
 
-   Access the app:
-   Open your browser and go to http://localhost:8501 to use the flight price prediction app.
+    Activate the environment:
+
+    - On macOS/Linux:
+      ```bash
+      source env/bin/activate
+      ```
+    - On Windows:
+      ```bash
+      env\Scripts\activate
+      ```
+
+3. **Install the required dependencies**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Streamlit app**:
+
+    ```bash
+    streamlit run app.py
+    ```
+
+5. **Access the app**:
+
+    Open your browser and go to [http://localhost:8501](http://localhost:8501) to use the Defaulter Credit Card Prediction_ML app.
 
 ## 📝 Conclusion
 
