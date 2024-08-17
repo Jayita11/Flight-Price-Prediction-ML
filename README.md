@@ -120,14 +120,14 @@ If you wish to run this project locally, follow these steps:
    cd Flight-Price-Prediction-ML
 
    python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
-streamlit run app.py
+   streamlit run app.py
 
-Access the app:
-Open your browser and go to http://localhost:8501 to use the flight price prediction app.
+   Access the app:
+   Open your browser and go to http://localhost:8501 to use the flight price prediction app.
 
 ## 📝 Conclusion
 
