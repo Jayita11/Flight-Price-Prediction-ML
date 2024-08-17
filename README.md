@@ -4,6 +4,16 @@
 
 This project aims to develop a predictive model for flight prices using various features such as search date, departure date, airline, number of stops, and more. The goal is to provide insights into the factors affecting flight prices and build a robust model to predict future prices accurately.
 
+## Table of Contents
+
+1. [Libraries and Dataset](#libraries-and-dataset)
+2. [Data Preprocessing](#data-preprocessing)
+3. [Exploratory Data Analysis](#exploratory-data-analysis)
+4. [Model Training & Selection](#model-training-&-Selection)
+5. [Model Evaluation](#model-evaluation)
+6. [Deployment](#deployment)
+7. [Conclusion](#conclusion)
+8. 
 ## Libraries and Dataset
 
 The project utilizes the following key libraries:
