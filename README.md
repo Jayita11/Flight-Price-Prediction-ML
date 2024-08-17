@@ -99,6 +99,7 @@ An important aspect of the Random Forest model is its ability to provide insight
 
 ![Screenshot 2024-08-16 at 10 17 18 PM](https://github.com/user-attachments/assets/2950e63b-bf09-41d4-a972-6fd5efacb5ab)
 
+### 🔍 Insights
 - **Travel Time** was the most influential feature, followed by **Airline** and **Number of Stops**.
 - Less important features included **Cabin** and **Flight Lands Next Day**, indicating they have a minimal impact on price prediction.
 
