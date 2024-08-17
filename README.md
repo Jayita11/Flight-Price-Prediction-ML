@@ -89,6 +89,12 @@ Values for best model:
 
 ![Screenshot 2024-08-16 at 10 17 09 PM](https://github.com/user-attachments/assets/bfb6ba67-2e54-4de2-9bbb-5d027c149a2c)
 
+The results from your model comparisons show that non-linear models significantly outperform linear models in predicting flight prices. Specifically:
+
+Linear Models (OLS, Ridge, Lasso Regression): These models struggled to capture the complex relationships between the features and the target variable (Price), resulting in lower R² values and higher error metrics (MAE, MSE). This indicates that linear models, while simple and interpretable, may not be sufficient for accurately predicting flight prices where the relationships between features are likely non-linear and complex.
+Non-Linear Models (Random Forest, Gradient Boosting, XGBoost Regression): These models showed a marked improvement in performance, with significantly higher R² values and lower MAE and MSE. This suggests that these models are better suited to capture the intricate patterns in the data, leading to more accurate predictions.
+Random Forest Regressor: With an R² of 0.746018, this model was identified as the best-performing model. The ensemble nature of Random Forest, which combines multiple decision trees, allows it to capture non-linear interactions between features, leading to more precise predictions.
+XGBoost Regressor: Another strong performer with an R² of 0.729838, this model benefits from its ability to handle missing data and its regularization techniques, which prevent overfitting. It's particularly useful in scenarios where the data has complex relationships.
 
 ### Feature Importance
 
@@ -96,6 +102,8 @@ An important aspect of the Random Forest model is its ability to provide insight
 
 ![Screenshot 2024-08-16 at 10 17 18 PM](https://github.com/user-attachments/assets/2950e63b-bf09-41d4-a972-6fd5efacb5ab)
 
+Travel Time was the most influential feature, followed by Airline and Number of Stops. These factors play a significant role in determining flight prices.
+Less important features included Cabin and Flight Lands Next Day, indicating they have a minimal impact on price prediction.
 
 ## Deployment
 
