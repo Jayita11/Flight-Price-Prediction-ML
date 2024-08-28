@@ -109,6 +109,9 @@ An important aspect of the Random Forest model is its ability to provide insight
 Deploy the model using a Streamlit app (`app.py`). The app allows users to input flight price prediction data and get price predictions. 
 
 
+https://github.com/user-attachments/assets/3cf39b02-3ca7-44dc-8cf1-e8be05674f96
+
+
 
 ## 🖥️ Run Instructions
 
